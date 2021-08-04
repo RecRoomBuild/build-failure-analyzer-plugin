@@ -26,9 +26,9 @@ package com.sonyericsson.jenkins.plugins.bfa.model.FailureCauseProjectAction;
 
 st = namespace("jelly:stapler");
 
-action = it.action;
-if (action != null) {
-  table(style: "margin-left: 1em;") {
-    st.include(it: action, page: "summary")
-  }
-}
+//action = it.action;
+//if (action != null) {
+//  table(style: "margin-left: 1em;") {
+//    st.include(it: action, page: "summary")
+//  }
+//}
