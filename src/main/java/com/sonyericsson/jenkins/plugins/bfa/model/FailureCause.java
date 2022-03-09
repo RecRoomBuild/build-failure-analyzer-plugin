@@ -69,7 +69,7 @@ import java.util.logging.Logger;
  * @author Tomas Westling &lt;thomas.westling@sonyericsson.com&gt;
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class FailureCause implements Serializable, Action, Describable<FailureCause> {
+public class FailureCause implements Serializable, Action, Describable<FailureCause>, IFailureCauseMetricData {
     private static final Logger logger = Logger.getLogger(FailureCause.class.getName());
     private String id;
     private String name;
@@ -171,7 +171,7 @@ public class FailureCause implements Serializable, Action, Describable<FailureCa
      * @param categories    the categories of this FailureCause.
      */
     public FailureCause(String name, String description, String comment, String categories) {
-        this(null, name, description, "", null, Arrays.<String>asList(Util.tokenize(categories)), null, null);
+        this(null, name, description, comment, null, Arrays.<String>asList(Util.tokenize(categories)), null, null);
     }
 
     /**

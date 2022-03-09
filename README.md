@@ -16,12 +16,11 @@ recognition of why the build failed.
 ## Guides
 
  * [Azure Cosmos DB](docs/azure.md)
+ * [Metrics Integration](docs/metrics.md)
 
 ## Community Resources
  * [Changelog](https://github.com/jenkinsci/build-failure-analyzer-plugin/releases)
- * [Wiki](https://wiki.jenkins-ci.org/display/JENKINS/Build+Failure+Analyzer)
- * [Open Issues](https://issues.jenkins-ci.org/secure/IssueNavigator.jspa?mode=hide&reset=true&jqlQuery=project+%3D+JENKINS+AND+status+in+%28Open%2C+%22In+Progress%22%2C+Reopened%29+AND+component+%3D+%27build-failure-analyzer-plugin%27)
- * [Mailing Lists](http://jenkins-ci.org/content/mailing-lists)
+ * [User Guide](https://plugins.jenkins.io/build-failure-analyzer/)
 
 # License
 MIT License
